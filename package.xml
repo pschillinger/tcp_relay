@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>tcp_relay</name>
+  <version>0.0.1</version>
+  <description>
+    Relay ROS topics to a different ROS network.
+  </description>
+
+  <maintainer email="schillin@kth.se">Philipp Schillinger</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/tcp_relay</url>
+  <url type="repository">https://github.com/pschillinger/tcp_relay</url>
+  <url type="bugtracker">https://github.com/pschillinger/tcp_relay/issues</url>
+
+  <author>Philipp Schillinger</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>rospy</run_depend>
+
+</package>
